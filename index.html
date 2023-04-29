@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rick & Morty Data Base</title>
+</head>
+<body>
+    <!--Barra menú-->
+    <nav class="navSensible">
+        <a href=""></a>
+        <a class="navLink" href="https://rickandmortyapi.com/documentation">Sobre esta API</a>
+        <a class="navLink" href="https://github.com/Alberto-Ricardo">Perfil en GitHub</a>
+        <a class="navLink" href="/contact.html">Contactame!</a>
+        
+        
+
+    </nav>
+
+    <!--Barra de búsqueda-->
+    <h1>Rick & Morty DataBase</h1>
+
+    <h2>Ingresa el nombre de algún personaje para saber más de él</h2>
+    <br>
+    <input type="text" placeholder="Example Rick" id="personaje"> <span><button id="searchButton" onclick="buscarInfo()">Buscar</button></span>
+    
+    <br>
+    <br>
+    
+    <div id="central_section">
+        <div id="resultado"></div>
+    </div>
+    <span class="space"></span>
+
+    <!--Despliegue y respuesta API-->
+    
+    <p class="space"></p>
+    <h1>Rick & Morty Lista de Personajes</h1>
+    <br>
+    <div class="botones">
+        <button class="boton"  id="botonOff" onclick="prevPage()">Previous Page</button>
+        <button class="boton" onclick="nextPage()">Next Page</button>
+    </div>
+    <br>
+
+
+    <div class="paginacion" id="paginacion"></div>
+    
+    
+    <div class="botones">
+        <button class="boton"  id="botonOff" onclick="prevPage()">Previous Page</button>
+        <button class="boton" onclick="nextPage()">Next Page</button>
+    </div>
+    <p>Made with love by Alberto-Morales!</p>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

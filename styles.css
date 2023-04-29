@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(24, 13, 13);
+    color: aquamarine;
+    text-align: center;
+}
+.space {
+    margin-bottom: 10rem;
+}
+
+h3, p, ul {
+    font-size: 1.2em;
+  }
+  
+
+h1:hover {
+    color: rgb(162, 253, 25);
+  
+}
+
+h3:hover {
+    color: rgb(162, 253, 25);
+  
+}
+
+.central_section {
+    margin-top: 200px;
+    padding: 12rem;
+    
+}
+
+img {
+    border: solid;
+    border-color: rgb(66, 255, 0);
+
+}
+.style {
+    justify-content: center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .space {
+        margin-bottom: 10rem;
+    }
+    footer {
+        height: 5rem;
+    }
+}
+
+
+
+/*NavBar*/
+
+
+
+
+nav {
+    display: flex;
+    height: 90px;
+    background-color:black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+nav a {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+nav a:hover {
+    color: rgb(162, 253, 25);
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    nav {
+      height: auto;
+      padding: 0;
+      flex-direction: column;
+    }
+  
+    nav a {
+      font-size: 1.5rem;
+      padding: 10px;
+      text-align: center;
+      width: 90%;
+    }
+  }
+
+
+/*API html*/
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.boton {
+    background-color: black;  
+    color: aquamarine;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 5px 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.boton:hover {
+    transform: scale(1.02);
+    color: rgb(162, 253, 25);
+    box-shadow: 1px 5px 10px 1px rgb(162, 253, 25)
+}
+
+.paginacion{
+    background-color: black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.name {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.3rem;
+}
+
+/*Contact form*/
+form {
+    width: auto;
+    margin: auto;
+    padding: 10px 15px;
+    background-color: rgb(24,13,13);
+}
+h4{
+    font-size: 2rem;
+    color: magenta;
+}
+.inputForm, .buttonForm,textarea {
+    background-color: rgba(236, 201, 234, 0.8);
+    font-size: larger;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.text_area_control {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton_enviar {
+    font-size: 18pt;
+    color:darkmagenta ;
+    padding: 14px;
+    margin-left: 7px;
+}
+#boton_enviar:hover {
+    transform: scale(1.02);
+
+
+}
+
+.cat_photo {
+    width: 40%;
+}
